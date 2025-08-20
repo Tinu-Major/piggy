@@ -1,0 +1,218 @@
+body{
+    /* width: 100%; */
+}
+.beginning{
+    background-color: #f2f7f8;
+    margin-top: 100px;
+    color: #122231;
+    /* height: 650px; */
+    padding-top: 150px;
+    /* display: flex; */
+    justify-content: space-between;
+    /* border: thick solid blue; */
+    width: 100%;
+    position: relative;
+    margin-bottom: 100px;
+    /* margin-inline: auto; */
+    /* padding-inline: 10%; */
+    /* z-index: 2; */
+}
+/* .beginning> */
+.beginning>div{
+    width: 85%;
+    margin-inline: auto;
+    /* border: thick solid green; */
+    display: flex;
+}
+.beginning .text{
+    width: 600px;
+    /* border: thin solid red; */
+}
+.beginning .link{
+    /* z-index: 2; */
+    color: white;
+    padding-block: 15px;
+    padding-inline: 8px;
+    background-color: #0089ff;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.beginning .link:hover {
+    background-color: #122231;
+    transition: background-color 0.3s ease;
+}
+.beginning .link:hover .left{
+    color: #0089ff;
+}
+.beginning .link:hover .right{
+    transform: translateX(5px);
+    transition: transform 0.5s ease;
+}
+.beginning .material-symbols-outlined{
+    vertical-align: middle;
+    position: relative;
+    top: -1.5px;
+}
+.beginning .right{
+    color: #00e6e8;
+    font-size: 30px;
+}
+.beginning .left{
+    color: yellow;
+    font-size: 30px;
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    to {transform: rotate(360deg);}
+}
+.beginning .text div{
+    margin-top: 30px;
+    max-width: 414.7px;
+    flex-wrap: wrap;
+    /* border: thin solid black; */
+    padding: 0.2rem;
+
+}
+.beginning .text h4{
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 700;
+}
+.beginning .text p{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    margin-block: 20px;
+}
+.beginning .text img{
+    width: 20px;
+}
+.beginning .text div a{
+    padding: 12px;
+    padding-block: 15px;
+    border-radius: 14px;
+    text-decoration: none;
+    background-color: #122231;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 5px;
+    max-width: 170px;
+    color: #f2f7f8;
+}
+.beginning .images{
+    /* display: flex;
+    justify-content: right;
+    text-align: right; */
+    position: relative;
+    animation: bounce 2s ease-in-out infinite alternate;
+    /* border: thin solid black; */
+}
+.beginning .images>.container{
+    position: relative;
+}
+@keyframes bounce {
+    to{transform: translateY(-20px);}
+}
+.beginning .images .container>img{
+    width: 500px;
+    /* position: relative; */
+}
+.beginning .images div img{
+    /* position: absolute; */
+    width: 210px;
+}
+.beginning .images .container div{
+    position: absolute;
+    top: 0;
+    height: 520px;
+    width: 500px;
+    /* border: thick solid yellow; */
+}
+.beginning .images div .one{
+    position: absolute;
+    top: 65px;
+    left: -60px;
+}
+.beginning .images div .two{
+    position: absolute;
+    top: 220px;
+    left: -60px;
+    width: 200px;
+}
+.beginning .images div .three{
+    position: absolute;
+    bottom: 60px;
+    left: -60px;
+    width: 180px;
+}
+.beginning .images div .four{
+    position: absolute;
+    top: 40px;
+    right: -50px;
+    width: 230px;
+}
+.beginning .images div .five{
+    position: absolute;
+    top: 270px;
+    right: -40px;
+    width: 210px;
+}
+.beginning .images div .six{
+    position: absolute;
+    bottom: -16px;
+    right: -32px;
+    /* width: 200px; */
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1248px) {
+    .beginning{
+        /* min-width: 100%; */
+    }
+}
+
+@media (max-width: 1154px) {
+    .beginning>div{
+        display: block;
+        /* width: 100%; */
+        /* margin-right: 0; */
+    }
+    .beginning .text{
+        margin-inline: auto;
+        text-align: center;
+    }
+    .beginning .text div{
+        max-width: 100%;
+        text-align: center;
+        padding-inline: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .beginning .images{
+        margin-top: 70px;
+        animation: none;
+        /* text-align: center; */
+        display: flex;
+        justify-content: center;
+        /* margin-inline: auto; */
+    }
+
+}
+@media (max-width:725px) {
+    .beginning .text{
+        width: 100%;
+    }
+}
+@media (max-width:593px) {
+    .beginning{
+        min-width: 150%;
+    }
+}

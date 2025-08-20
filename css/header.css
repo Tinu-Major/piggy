@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+header{
+    /* border: thin solid black; */
+    width: 100%;
+    height: 100px;
+    /* margin-inline: auto; */
+    position: fixed;
+    background-color: #f2f7f8;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+    z-index: 1000;
+    top: 0;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.534);
+}
+header nav{
+    width: 85%;
+    height: inherit;
+    margin-inline: auto;
+    /* border: thin solid red; */
+    display: flex;
+    align-items: center;
+    /* gap: 20px; */
+}
+header button a{
+    text-decoration: none;
+}
+nav a{
+    /* text-decoration: none; */
+    color: rgb(25, 58, 82);
+}
+header .logo{
+    margin-right: 25px;
+    z-index: 3;
+}
+header #menu{
+    display: none;
+}
+header .menu-icon{
+    display: none;
+    cursor: pointer;
+    font-size: 35px;
+}
+header .removeable{
+    width: 100%;
+    height: inherit;
+    margin-inline: auto;
+    /* border: thin solid green; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.dropdown{
+    position: relative;
+}
+.dropbtn{
+    position: relative;
+    /* display: flex; */
+    /* align-items: center; */
+}
+header button{
+    background-color: inherit;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(37, 68, 89);
+}
+header .material-symbols-outlined{
+    /* vertical-align: middle; */
+    /* color: blue; */
+    height: 30px;
+    width: 30px;
+    /* border: thin solid black; */
+    display: flex;
+    align-items: end;
+    margin-left: -2px;
+    /* align-items: center; */
+}
+header .span{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border: thin solid black;
+    /* align-items: baseline; */
+}
+header .dropdownContent{
+    display: none;
+    background-color: white;
+    position: absolute;
+    /* left: 300px; */
+    border-radius: 8px;
+    width: 500px;
+}
+header .dropdown:hover .dropdownContent{
+    display: flex;
+}
+header .deeper{
+    display: flex;
+    padding: 30px;
+    padding-bottom: 0;
+    gap: 10px;
+}
+header .deeper img{
+    width: 40px;
+}
+header .deeper a{
+    text-decoration: none;
+}
+header .deeper p{
+    font-size: 13px;
+    line-height: 25px;
+}
+header .deeper h5{
+    font-size: 16px;
+    line-height: 19px;
+}
+header .deeper:hover h5{
+    color: green;
+}
+header .dc2 a{
+    font-size: 14px;
+    padding-right: 130px;
+    /* background-color: blue; */
+    /* border: thin solid black; */
+}
+header .dc2 .deeper:hover p{
+    /* color: green; */
+    font-size: 15px;
+    font-weight: 650;
+}
+header .navEnd{
+    display: flex;
+    justify-content: end;
+    /* border: thin solid blue; */
+    width: 100%;
+    gap: 10px;
+}
+header .btn1{
+    border: thin solid black;
+    padding-block: 15px;
+    padding-inline: 22px;
+    border-radius: 12px;
+}
+header .btn2{
+    border: thin solid black;
+    padding-block: 15px;
+    padding-inline: 22px;
+    border-radius: 12px;
+    color: #f2f7f8;
+    background-color: rgb(2, 24, 39);
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1118px) {
+    header .menu-icon{
+        display: block;
+        z-index: 3;
+    }
+    header nav{
+        /* background-color: green; */
+        /* display: flex; */
+        justify-content: space-between;
+        width: 95%;
+        align-items: normal;
+        padding-top: 20px;
+    }
+    header .removeable{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 40px;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #f2f7f8;
+        align-items: center;
+        /* justify-content: center; */
+        padding-top: 200px;
+        /* padding-inline: auto; */
+        z-index: 2;
+        gap: 40px;
+        font-size: 18px;
+    }
+    #menu:checked ~.removeable{
+        display: flex;
+    }
+    header .rest{
+        /* border: thin solid black; */
+        position: relative;
+        right: 1%;
+        /* margin-inline: auto; */
+    }
+    header .navEnd{
+        flex-direction: column;
+        width: 90%;
+        gap: 20px;
+    }
+    header .navEnd button{
+        /* text-align: center; */
+        display: flex;
+        justify-content: center;
+    }
+    header .dropdown:hover .dropdownContent{
+        display: none;
+    }
+}
