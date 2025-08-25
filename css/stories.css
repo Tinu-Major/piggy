@@ -1,0 +1,177 @@
+.love{
+    width: 100%;
+    background-color: #f2f7f8;
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.love .inner{
+    width: 85%;
+    /* border:  thin solid red; */
+    /* padding-top: 200px; */
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30%;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.love .inner .top{
+    /* border: thick solid blue; */
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    line-height: 32px;
+    justify-content: space-between;
+    /* gap: 50px; */
+}
+.love .inner .top>div{
+    /* border: thin solid green; */
+    /* gap: 20%; */
+}
+.love .inner .top .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 44%;
+    gap: 15px;
+}
+.love .inner .top>.left h2{
+    font-size: 48px;
+    line-height: 56px;
+}
+.love .inner .top>.left h2::after {
+    content: "💙";
+}
+.love .inner .top>.left a{
+    color: #f2f7f8;
+    text-decoration: none;
+    padding-block: 10px;
+    width: 150px;
+    background-color: rgb(18, 34, 48);
+    text-align: center;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.love .inner .top .right{
+    width: 45%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.love .inner .top .right .img1{
+    /* position: relative; */
+    height: 484px;
+}
+.love .inner .top .right .img2{
+    position: absolute;
+    /* top: 20px; */
+   width: 570px;
+    left: -80px;
+}
+.love .inner .bottom{
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+    /* border: thin solid black; */
+}
+.love .inner .bottom>img{
+    width: 40%;
+}
+.love .bottom div{
+    width: 50%;
+    margin-left: 7%;
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 41px;
+    margin-right: 10%;
+    /* border: thin solid blue; */
+}
+.love .bottom div h4{
+    margin-bottom: 20px;
+}
+.love .bottom div a{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 27px;
+    border: thin solid #dbdada;
+    border-radius: 10px;
+    padding: 13px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #122231;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* vertical-align: middle; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.love .bottom div img{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1185px) {
+    .love .inner{
+        gap: 10%;
+    }
+    .love .inner .top{
+        flex-direction: column;
+        gap: 80px;
+    }
+    .love .inner .top>.left{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .love .inner .top>.right{
+        width: 100%;
+        margin-inline: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .love .inner .top .right .img1{
+        /* position: relative; */
+        width: 100%; 
+    }
+    .love .inner .top .right .img2{
+        left: -7%;
+        width: 100%;
+        height: 90%;
+    }
+    .love .bottom{
+        flex-direction: column-reverse;
+        /* margin-top: 100px; */
+        width: 80%;
+    }
+    .love .inner .bottom>img{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .love .inner .bottom div{
+        width: 100%;
+        margin-inline: auto;
+        text-align: center;
+    }
+    .love .inner .bottom div a{
+        display: block;
+        margin-inline: auto;
+        margin-top: 20px;
+    }
+}
+
