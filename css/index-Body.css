@@ -108,9 +108,9 @@
     max-width: 170px;
     color: #f2f7f8;
 }
-.beginning div #store{
-    /* width: 80%; */
-}
+/* .beginning div #store{
+    width: 80%;
+} */
 .beginning .images{
     /* display: flex;
     justify-content: right;
@@ -142,10 +142,10 @@
     width: 90%;
     position: relative;
 }
-.beginning .images div img{
-    /* position: absolute; */
-    /* width: 50%; */
-}
+/* .beginning .images div img{
+    position: absolute;
+    width: 50%;
+} */
 .beginning .images .container .inner{
     position: absolute;
     /* top: 0; */
@@ -370,10 +370,6 @@
 }
 .savings .inner .boxes .four:hover{
     background-color: #e5489b;
-}
-
-.savings .inner .boxes .two h3{
-    /* color: #3296ff; */
 }
 .savings .inner .boxes .five a{
     color: #0c1825;
