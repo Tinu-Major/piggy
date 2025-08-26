@@ -1,0 +1,296 @@
+.start{
+    width: 100%;
+    background-color: #0d60d8;
+    padding-top: 100px;
+}
+.start .inner{
+    width: 85%;
+    margin-inline: auto;
+    /* border: thin solid red; */
+    margin-top: 100px;
+    display: flex;
+    color: #f2f7f8;
+}
+.start .inner .left{
+    /* border: thin solid yellow; */
+    font-size: 20px;
+    line-height: 32px;
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    justify-content: center;
+}
+.start .inner .left h2{
+    font-size: 48px;
+    line-height: 52px;
+}
+.start .inner .left .auto{
+    /* border: thin solid black; */
+    display: flex;
+    align-items: center;
+    width: 220px;
+    background-color: #f2f7f8;
+    color: #0057d5;
+    justify-content: center;
+    border-radius: 20px;
+    /* padding-inline: 10px; */
+    padding-block: 10px;
+    gap: 8px;
+    font-size: 17px;
+    line-height: 23px;
+}
+.start .inner .left .links{
+    display: flex;
+    gap: 30px;
+}
+.start .inner .left .links img{
+    width: 20px;
+}
+.start .inner .left .links a{
+    padding: 12px;
+    padding-block: 15px;
+    border-radius: 14px;
+    text-decoration: none;
+    background-color: #122231;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 5px;
+    max-width: 170px;
+    color: #f2f7f8;
+    font-size: 16px;
+    line-height: 27px;
+}
+.start .inner .right{
+    width: 51%;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    /* border: thin solid green; */
+}
+.start .inner .right div{
+    /* border: thick solid red; */
+    /* width: 50%; */
+}
+.start .inner .right div img{
+    width: 60%;
+}
+.start .inner .right img{
+    width: 80%;
+    /* position: relative; */
+    /* margin-inline: auto; */
+}
+.start .inner .right #image1{
+    position: relative;
+}
+.start .inner .right #image2{
+    position: absolute;
+    left: 55%;
+    top: 40%;
+}
+.save{
+    width: 100%;
+    background-color: #f2f7f8;
+    padding-top: 5%;
+}
+.save .inner{
+    width: 85%;
+    margin-inline: auto;
+    font-size: 16px;
+    line-height: 27px;
+}
+.save .inner .upper{
+    text-align: center;
+}
+.save .inner .upper h2{
+    font-size: 51px;
+    line-height: 64px;
+}
+.save .inner .lower{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+.save .inner .lower>div{
+    width: 31%;
+    /* height: 100px; */
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 2.5%;
+    padding-top: 5%;
+    /* gap: 1%; */
+    height: 550px;
+}
+.save .inner .lower div h3{
+    font-size: 36px;
+    line-height: 42px;
+    color: #0d60d8;
+    /* margin-bottom: 5%; */
+}
+.save .inner .lower div img{
+    width: 100%;
+}
+.save .inner .lower>div{
+    justify-content: space-between;
+}
+.save .inner .lower>div div{
+    /* border: thin solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.build{
+    width: 100%;
+    padding-top: 100px;
+    height: 600px;
+    display: flex;
+    background-color: #f2f7f8;
+    /* margin-bottom: 200px; */
+    padding-bottom: 100px;
+}
+.build .inner{
+    background-color: #0d60d8;
+    width: 58%;
+    display: flex;
+    align-items: center;
+}
+.build .inner .text{
+    /* border: thin solid yellow; */
+    color: #f2f7f8;
+    line-height: 27px;
+    width: 62%;
+    margin-inline: auto;
+    margin-right: 29%;
+    /* padding-left: 20px; */
+    /* padding-right: 16px; */
+    /* padding-bottom: 85px; */
+}
+.build .inner .text h3{
+    font-size: 51px;
+    line-height: 61px;
+    margin-bottom: 20px;
+}
+.build .image{
+    /* border: thin solid red; */
+    width: 42%;
+    background-image: url(https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/image_ca24bb2340/image_ca24bb2340.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1023px) {
+    .start .inner .left{
+        width: 100%;
+        text-align: center;
+        /* justify-content: center; */
+        align-items: center;
+    }
+    .start .inner .right{
+        width: 100%;
+    }
+    .start .inner .right img{
+        width: 100%;
+    }
+    .start .inner .right #image2{
+        display: none;
+    }
+    .save {
+        padding-top: 20%;
+    }
+    .save .inner .lower{
+        /* flex-direction: column; */
+        /* text-align: center; */
+        /* justify-content: center; */
+    }
+}
+@media (max-width: 988px) {
+    .start .inner{
+        flex-direction: column;
+        gap: 50px;
+        width: 80%;
+    }
+    .save .inner .lower{
+        flex-direction: column;
+        gap: 50px;
+        /* justify-content: center; */
+        align-items: center;
+        /* margin-top: 100px; */
+    }
+    .save .inner .lower>div{
+        width: 80%;
+        gap: 5%;
+        margin-inline: auto;
+        text-align: center;
+        /* justify-content: center; */
+        align-items: center;
+        padding-bottom: 10px;
+    }
+    .save .inner .lower div img{
+        width: 70%;
+    }
+    .save .inner .lower>div div{
+        /* text-align: center; */
+        justify-content: center;
+        align-items: center;
+    }
+    .build{
+        /* flex-direction: column; */
+        display: block;
+        padding-top: 0;
+        margin-bottom: 165px;
+        /* padding-bottom: 100px; */
+    }
+    .build .inner{
+        width: 100%;
+    }
+    .build .inner .text{
+        width: 90%;
+        margin-inline: auto;
+        text-align: center;
+        margin-block: 100px;
+    }
+    .build .image{
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+        /* margin-bottom: 200px; */
+        /* border: thin solid green; */
+    }
+}
+@media (max-width: 720px) {
+    .save .inner .lower>div{
+        width: 90%;
+    }
+    .save .inner .lower div img{
+        width: 98%;
+    }
+}
+@media (max-width: 387px) {
+    .start .inner .left .links{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
