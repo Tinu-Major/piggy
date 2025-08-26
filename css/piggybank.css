@@ -70,10 +70,6 @@
     justify-content: right;
     /* border: thin solid green; */
 }
-.start .inner .right div{
-    /* border: thick solid red; */
-    /* width: 50%; */
-}
 .start .inner .right div img{
     width: 60%;
 }
@@ -219,11 +215,6 @@
     }
     .save {
         padding-top: 20%;
-    }
-    .save .inner .lower{
-        /* flex-direction: column; */
-        /* text-align: center; */
-        /* justify-content: center; */
     }
 }
 @media (max-width: 988px) {
