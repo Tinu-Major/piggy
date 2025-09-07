@@ -2,6 +2,7 @@ footer{
     background: linear-gradient(180deg, #f2f7f8, #fff 33.01%);
     width: 100%;
     margin-bottom: 100px;
+    padding-top: 20px;
     /* border: thin solid brown; */
 }
 footer h6{

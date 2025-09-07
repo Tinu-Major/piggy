@@ -1,0 +1,478 @@
+.grown{
+    width: 100%;
+    height: 100vh;
+    /* border: thin solid black; */
+    background-image: url(https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/Untitled_Artwork_d7fa28d54d/Untitled_Artwork_d7fa28d54d.avif);
+    background-position: center;
+    background-size: cover;
+    /* position: relative; */
+    /* display: flex; */
+}
+/* .grown img{
+    object-fit: cover;
+    width: 100%;
+    position: relative;
+} */
+.grown .inner{
+    /* position: absolute; */
+    /* top: 50%; */
+    /* position: relative; */
+    padding-top: 210px;
+    width: 50%;
+    padding-left: 100px;
+    font-size: 22px;
+    line-height: 31px;
+    font-weight: 700;
+    color: #f2f7f8;
+    /* gap: 10%; */
+}
+.grown .inner img{
+    width: 100%;
+}
+.grown .inner>div{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.grown .inner>div a{
+    text-decoration: none;
+    color: #f2f7f8;
+    background-color: #122231;
+    /* border:  thin solid red; */
+    width: 165px;
+    text-align: center;
+    padding-block: 18px;
+    /* padding-inline: 30px; */
+    font-size: 20px;
+    line-height: 29px;
+    font-size: 600;
+    border-radius: 13px;
+}
+.comics{
+    width: 100%;
+    padding-top: 100px;
+    background-color: #f2f7f8;
+    /* position: relative; */
+    /* height: 400px; */
+}
+.comics .inner{
+    width: 80%;
+    margin-inline: auto;
+    /* border: thin solid black; */
+    /* height: 200px; */
+    color: #164A49;
+}
+.comics .inner h1{
+    font-size: 55px;
+    line-height: 64px;
+    font-weight: 600;
+    text-align: center;
+}
+.comics .inner .bottom{
+    /* border: thin solid black; */
+    /* height: 200px; */
+    width: 100%;
+    margin-top: 50px;
+}
+.comics .inner .bottom .up{
+    display: flex;
+}
+/* .comics .inner .bottom .up>div{
+    border: thin solid black;
+} */
+.comics .inner .bottom .up .image1{
+    width: 55%;
+    /* border: thin solid black; */
+    /* height: 3000px; */
+}
+.comics .inner .bottom .up .image1>img{
+    width: 90%;
+    margin-inline: auto;
+}
+.comics .inner .bottom .up .text1{
+    width: 45%;
+    /* border: thin solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 27px;
+    gap: 1.5rem;
+}
+.comics .inner .bottom .up .text1 h2{
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 64px;
+    color: #24467f;
+}
+.comics .inner .bottom .up .text1 a{
+    text-decoration: none;
+    color: #f2f7f8;
+    background-color: #122231;
+    /* border:  thin solid red; */
+    width: 120px;
+    text-align: center;
+    padding-block: 15px;
+    /* padding-inline: 30px; */
+    /* font-size: 20px; */
+    /* line-height: 29px; */
+    /* font-size: 600; */
+    border-radius: 13px;
+}
+.comics .inner .bottom .down{
+    display: flex;
+    margin-top: 100px;
+}
+/* .comics .inner .bottom .up>div{
+    border: thin solid black;
+} */
+.comics .inner .bottom .down .image1{
+    width: 55%;
+    /* border: thin solid black; */
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
+    /* height: 3000px; */
+}
+.comics .inner .bottom .down .image1>img{
+    width: 90%;
+    margin-inline: auto;
+}
+.comics .inner .bottom .down .text1{
+    width: 45%;
+    /* border: thin solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 27px;
+    gap: 1.5rem;
+}
+.comics .inner .bottom .down .text1 h2{
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 64px;
+    color: #24467f;
+}
+.comics .inner .bottom .down .text1 a{
+    text-decoration: none;
+    color: #f2f7f8;
+    background-color: #122231;
+    /* border:  thin solid red; */
+    width: 120px;
+    text-align: center;
+    padding-block: 15px;
+    /* padding-inline: 30px; */
+    /* font-size: 20px; */
+    /* line-height: 29px; */
+    /* font-size: 600; */
+    border-radius: 13px;
+}
+.Subscribe{
+    width: 100%;
+    padding-block: 50px;
+    background-color: #f2f7f8;
+}
+.Subscribe .inner{
+    width: 87%;
+    margin-inline: auto;
+    /* border: thin solid black; */
+    display: flex;
+    border-radius: 35px;
+    background-color: #eef3f7;
+}
+.Subscribe .inner .left{
+    width: 62%;
+    /* border: thin solid green; */
+    padding-inline: 4.0rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #889598;
+}
+.Subscribe .inner .left h2{
+    font-size: 48px;
+    line-height: 55px;
+    font-weight: 500;
+    color: #0c1825;
+}
+.Subscribe .inner .left .deep{
+    display: flex;
+    gap: 5%;
+}
+.Subscribe .inner .left .deep #email{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 500;
+    /* color: #eef3f7; */
+    background-color: white;
+    padding-inline: 30px;
+    padding-block: 15px;
+    border: none;
+    border-radius: 20px;
+}
+.Subscribe .inner .left .deep #email::placeholder{
+    color: #d8dadb;
+    /* font-size: 24px; */
+    /* opacity: 2; */
+}
+.Subscribe .inner .left .deep button{
+    width: 150px;
+    border-radius: 16px;
+    background-color: #122231;
+    color: #fffff2;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    border: none;
+}
+.Subscribe .inner .right{
+    width: 38%;
+    /* border: thin solid blue; */
+    /* border-radius: 30px; */
+    /* object-fit: cover; */
+}
+.Subscribe .inner .right img{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+.phone{
+    width: 100%;
+    background-color: #f2f7f8;
+    padding-block: 100px;
+}
+.phone .inner{
+    width: 87%;
+    margin-inline: auto;
+    background-color: #56dadf;
+    display: flex;
+    border-radius: 40px;
+}
+.phone .inner .text{
+    width: 50%;
+    padding-left: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.phone .inner .text h2{
+    font-weight: 500;
+    font-size: 60px;
+    /* text-align: left; */
+    line-height: 80px;
+    color: #164a49;
+}
+.phone .inner .text>div{
+    margin-top: 64px;
+    display: flex;
+    /* grid-gap: 19px; */
+    gap: 19px
+}
+.phone .inner .text>div button img{
+    width: 40px;
+}
+.phone .inner .text>div button{
+    z-index: 20;
+    background: #40c3a9;
+    border-radius: 90px;
+    height: 80px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 20px;
+    display: flex;
+    grid-gap: 15px;
+    gap: 15px;
+    align-items: center;
+
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    padding: 15px 22px;
+    border: 1px solid transparent;
+}
+.phone .inner .image{
+    width: 50%;
+    position: relative;
+    height: 650px;
+}
+.phone .inner .image img{
+    width: 130%;
+    position: absolute;
+    left: -30%;
+    top: -17%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 988px){
+    .grown{
+        background-image: url(https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/Untitled_Artwork_1_4b82ae8297/Untitled_Artwork_1_4b82ae8297.avif);
+    }
+    .grown .inner{
+        width: 85%;
+        margin-inline: auto;
+        padding-left: 0;
+        padding-top: 130px;
+    }
+    .grown .inner>div{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        margin-top: 15px;
+        font-size: 18px;
+        line-height: 23px;
+        gap: 1rem;
+    }
+    .comics .inner h1{
+        font-size: 38px;
+        line-height: 45px;
+    }
+    .comics .inner .bottom .up{
+        flex-direction: column;
+    }
+    .comics .inner .bottom .up .image1{
+        width: 100%;
+    }
+    .comics .inner .bottom .up .image1>img{
+        width: 100%;
+    }
+    .comics .inner .bottom .up .text1{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .comics .inner .bottom .up .text1 h2{
+        font-size: 35px;
+        font-weight: 500;
+        line-height: 42px;
+    }
+    .comics .inner .bottom .down{
+        flex-direction: column-reverse;
+        /* gap: 1rem; */
+    }
+    .comics .inner .bottom .down .image1{
+        width: 100%;
+    }
+    .comics .inner .bottom .down .image1>img{
+        width: 100%;
+        /* align-items: center; */
+    }
+    .comics .inner .bottom .down .text1{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .comics .inner .bottom .down .text1 h2{
+        font-size: 35px;
+        font-weight: 500;
+        line-height: 42px;
+    }
+    .Subscribe .inner{
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .Subscribe .inner .left{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        padding-inline: 0;
+    }
+    .Subscribe .inner .right{
+        width: 100%;
+    }
+    .Subscribe .inner .left h2{
+        font-size: 38px;
+        line-height: 45px;
+    }
+    .Subscribe .inner .left .deep{
+        flex-direction: column;
+        gap: 1rem;
+        /* text-align: center; */
+        align-items: center;
+    }
+    .Subscribe .inner .left .deep button{
+        width: 200px;
+        padding-block: 15px;
+    }
+    .Subscribe .inner .right img{
+        object-fit: contain;
+        border-bottom-left-radius: 25px;
+    }
+    .phone .inner{
+        flex-direction: column;
+        width: 100%;
+        /* height: 521px; */
+        padding-top: 50px;
+    }
+    .phone .inner .text{
+        width: 87%;
+        margin-inline: auto;
+        text-align: center;
+        align-items: center;
+        padding-left: 0;
+    }
+    .phone .inner .text h2{
+        font-size: 31px;
+        line-height: 30px;
+        letter-spacing: -.015em;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .phone .inner .image{
+        width: 100%;
+        text-align: right;
+        /* display: flex; */
+        /* border: thin solid black; */
+    }
+    .phone .inner .image img{
+        width: 90%;
+        position: relative;
+        left: auto;
+        top: auto;
+    }
+    .phone .inner .text>div button img{
+        width: 16px;
+        object-fit: contain;
+    }
+    .phone .inner .text>div{
+        justify-content: center;
+        margin-top: 22px;
+    }
+    .phone .inner .text>div button{
+        height: 25px;
+        font-size: 10px;
+        line-height: 12px;  
+    }      
+}
+@media (max-width: 520px){
+    .phone .inner{
+        /* flex-direction: column; */
+        /* width: 100%; */
+        height: 521px;
+    }
+}
