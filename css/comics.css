@@ -277,6 +277,9 @@
     /* grid-gap: 19px; */
     gap: 19px
 }
+.phone .inner .text>div button{
+    cursor: pointer;
+}
 .phone .inner .text>div button img{
     width: 40px;
 }
